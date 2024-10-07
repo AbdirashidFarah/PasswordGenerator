@@ -1,0 +1,114 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #1C1C1C;
+    height: 100vh;
+
+}
+
+.box{
+    background-color:#1F2937;
+    color: #ffff;
+    margin: auto;
+    margin-top: 150px;
+    width: 550px;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contain {
+    padding: 0 52px; 
+}
+
+.heading {
+    margin: 0;
+    padding: 15px 0 0 0; 
+    width: 354px;
+    height: 80px;
+    font-family: 'Karla', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: -0.025em;
+    text-align: left;
+    color: #ffffff;
+}
+
+.highlight {
+    color: #55F991;
+}
+.support {
+    width: 372px;
+    height: 28px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #D5D4D8;
+}
+.btn {
+   background-color: #55F991; 
+   width: 191px;
+   height: 42px;
+   padding: 9px 17px 9px 15px;
+   border-radius: 6px;
+   border: none;
+   font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #FFFFFF;
+    
+}
+.line {
+    border: 1px solid #2F3E53;
+    width: 446px;
+    height: 0;
+    margin: 35px 0;
+}
+
+.input {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.pass{
+    width: 211px;
+    height: 39px;
+    top: 396px;
+    left: 52px;
+    gap: 0px;
+    border-radius: 6px;
+    opacity: 1px;
+    background: #273549;
+    border: none;
+}
+
+#password1{
+    margin-right: 24px;
+    color: #55F991;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 4px;
+}
+
+#password2 {
+    color: #55F991;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 4px;
+}
